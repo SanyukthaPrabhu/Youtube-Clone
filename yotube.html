@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="icons/hamburger-menu.png">
+            <img class="youtube-logo" src="icons/youtube.jpg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.png">
+                <div class="tooltip">Search</div>
+            </button>
+            <!--Put position absolute inside position relative-->
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search.png">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="create-container">
+                <img class="create-icon" src="icons/create.png">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="bell-container">
+                <img class="bell-icon" src="icons/bell.png">
+                <div class="tooltip">Notifications</div>
+                <div class="notification-count">3</div>
+            </div>
+            <img class="profile-icon" src="channel pictures/profile.jpg">
+        </div>
+    </header>
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.png">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/explore.png">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.png">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/originals.png">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/music.png">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.png">
+            <div>Library</div>
+        </div>
+    </nav>
+    <main>
+    <section class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/image1.webp">
+                <div class="video-time">06:31:20</div>
+            </div>
+            <div class="box">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel pictures/picture1.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">HTML & CSS Full Course-Beginner to Pro</p>
+                    <p class="video-author">SuperSimpleDev &#10003;</p>
+                    <p class="video-stats">11M views·2 years ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/image2.webp">
+                <div class="video-time">21:32:51</div>
+            </div>
+            <div class="box">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel pictures/picture2.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Frontend Web Development Bootcamp Course (JavaScript, HTML, CSS)</p>
+                    <p class="video-author">freeCodeCamp.org &#10003;</p>
+                    <p class="video-stats">2.9M views·2 years ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/image3.webp">
+                <div class="video-time">10:00</div>
+            </div>
+            <div class="box">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel pictures/picture3.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">The Ones With the Roomate Fights|Friends</p>
+                    <p class="video-author">Friends &#10003;</p>
+                    <p class="video-stats">397K views·11 days ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/image4.webp">
+                <div class="video-time">09:45</div>
+            </div>
+            <div class="box">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel pictures/picture4.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">How I won Smart India Hackathon?|Winning Tips</p>
+                    <p class="video-author">Harshavardhan Barmmidi &#10003;</p>
+                    <p class="video-stats">7.6K views·11 months ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/image5.webp">
+                <div class="video-time">05:17</div>
+            </div>
+            <div class="box">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel pictures/picture5.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Tongue Issues-Standup Comedy</p>
+                    <p class="video-author">Abhishek Upmanyu &#10003;</p>
+                    <p class="video-stats">16M views·1 year ago</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/image6.webp">
+                <div class="video-time">32:06</div>
+            </div>
+            <div class="box">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel pictures/picture6.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Oe of the Greatest Speeches Ever | Steve Jobs</p>
+                    <p class="video-author">Motivation Ark &#10003;</p>
+                    <p class="video-stats">35M views·3 years ago</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
